@@ -135,3 +135,17 @@
 
 //--------------------------------------- Sir work----------------------------------------------- //
 
+var totalmarks  = 400
+
+var username = prompt("enter your name" )
+var engishmark = + prompt("enter your englishmarks")
+var urduhmarkshmark = + prompt("enter your urduhmarks")
+var psttmarkshmark = + prompt("enter your psttmarks")
+var mathhmarkshmark = + prompt("enter your mathhmarks")
+
+var studentobtentmarks = engishmark + urduhmarkshmark + psttmarkshmark + mathhmarkshmark 
+var percentage = studentobtentmarks / totalmarks * 100
+
+console.log("usernameis" + username + "resultis" + studentobtentmarks + "percentage is " + "%"+);
+
+
