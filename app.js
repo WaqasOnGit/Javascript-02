@@ -135,17 +135,15 @@
 
 //--------------------------------------- Sir work----------------------------------------------- //
 
-var totalmarks  = 400
+var Totalmarks = 400
 
-var username = prompt("enter your name" )
-var engishmark = +prompt("enter your englishmarks")
-var urduhmarkshmark = +prompt("enter your urduhmarks")
-var psttmarkshmark = +prompt("enter your psttmarks")
-var mathhmarkshmark = +prompt("enter your mathhmarks")
+var username = prompt("Enter your usersname ")
+var urdu = +prompt("Enter your urdu marks ")
+var english = +prompt("Enter your english marks ")
+var com = +prompt("Enter your com marks ")
+var math = +prompt("Enter your math marks ")
 
-var studentobtentmarks = engishmark + urduhmarkshmark + psttmarkshmark + mathhmarkshmark 
-var percentage = studentobtentmarks / totalmarks * 100
+var studentGetMarks = urdu + english + com + math 
+var percentage = studentGetMarks / Totalmarks * 100 
 
-console.log("username is " + " " + username + "result is" + " "+ studentobtentmarks + + " "+ "percentage is "+ " " + percentage + "%"  );
-
-
+console.log("username is " + username + "Result is " + studentGetMarks + "percentage is " + percentage + "%")
